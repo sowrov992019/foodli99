@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Foodli - Download App</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #e91e63, #c2185b);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .card {
+            width: 100%;
+            max-width: 430px;
+            background: white;
+            border-radius: 25px;
+            padding: 35px 25px;
+            text-align: center;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+        }
+
+        .logo {
+            width: 110px;
+            height: 110px;
+            object-fit: contain;
+            border-radius: 25px;
+            margin-bottom: 18px;
+        }
+
+        h1 {
+            color: #d81b60;
+            font-size: 34px;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #555;
+            font-size: 16px;
+            line-height: 1.7;
+            margin-bottom: 25px;
+        }
+
+        .download-btn {
+            display: block;
+            width: 100%;
+            background: #d81b60;
+            color: white;
+            text-decoration: none;
+            padding: 17px;
+            border-radius: 14px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .download-btn:hover {
+            background: #ad1457;
+        }
+
+        .version {
+            margin-top: 12px;
+            color: #777;
+            font-size: 13px;
+        }
+
+        .info {
+            margin-top: 25px;
+            padding: 18px;
+            background: #fff3f7;
+            border-radius: 15px;
+            text-align: left;
+        }
+
+        .info h3 {
+            color: #d81b60;
+            margin-bottom: 10px;
+        }
+
+        .info p {
+            color: #555;
+            font-size: 14px;
+            line-height: 1.8;
+        }
+
+        footer {
+            margin-top: 25px;
+            color: #999;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+
+        <img src="foodli-logo.png"
+             class="logo"
+             alt="Foodli Logo">
+
+        <h1>Foodli</h1>
+
+        <p class="subtitle">
+            আপনার পছন্দের খাবার ও প্রয়োজনীয় পণ্য
+            সহজেই অর্ডার করুন।
+        </p>
+
+        <a href="Foodli.apk"
+           class="download-btn"
+           download>
+            ⬇ Download Foodli App
+        </a>
+
+        <div class="version">
+            Latest Version: 1.0.0
+        </div>
+
+        <div class="info">
+
+            <h3>📱 অ্যাপ ইনস্টল করার নিয়ম</h3>
+
+            <p>
+                ১. Download Foodli App চাপুন।<br>
+                ২. APK Download করুন।<br>
+                ৩. Download হওয়া APK ওপেন করুন।<br>
+                ৪. প্রয়োজন হলে “Allow from this source” চালু করুন।<br>
+                ৫. Install চাপুন।
+            </p>
+
+        </div>
+
+        <footer>
+            © 2026 Foodli. All Rights Reserved.
+        </footer>
+
+    </div>
+
+</body>
+</html>
